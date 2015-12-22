@@ -1,5 +1,7 @@
-Stanford University
-Algorithms: Design and Analysis, Part 1
+# ADA1_Stanford-University
+Algorithms: Design and Analysis, Part 1 Stanford University
+
+
 In this course you will learn several fundamental principles of algorithm design: divide-and-conquer methods, graph algorithms, practical data structures (heaps, hash tables, search trees), randomized algorithms, and more.
 
 Preview Lectures
