@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- * Created by e-aobl on 22/12/2015.
+ * Created by Arturo Bernal on 22/12/2015.
  */
 public class SCCs {
     public final String fileName = "src/main/resources/SCC.txt";
@@ -59,7 +59,7 @@ public class SCCs {
 
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        System.out.println("loadindsadsadsag graph...");
+        System.out.println("loading graph...");
         SCCs kos = new SCCs();
 
         System.out.println("1st pass...");
