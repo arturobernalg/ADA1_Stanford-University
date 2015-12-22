@@ -17,7 +17,7 @@ public class KargerMinCut
 
     KargerMinCut()
     {
-        File input=new File("resources/kargerMinCut.txt");
+        File input=new File("src/main/resources/kargerMinCut.txt");
         Scanner scannerLine, scannerRow;
         boolean isFirst = true;
         ArrayList<Integer> line;

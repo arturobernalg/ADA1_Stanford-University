@@ -1,3 +1,4 @@
+
 import java.io.*;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -94,13 +95,13 @@ public class inversion {
      * Main method
      */
     public static void main(String [] args) {
-        File file = new File("resources/IntegerArray.txt");
+        File file = new File("src/main/resources/IntegerArray.txt");
         int temp, k = 0;
         int count = 0;
 
         /* Count the number of lines in the text file to find the correct array's size */
         try {
-            count = countLines("resources/IntegerArray.txt");
+            count = countLines("src/main/resources/IntegerArray.txt");
         }
         catch (IOException e) {
             System.out.println("File not found!");

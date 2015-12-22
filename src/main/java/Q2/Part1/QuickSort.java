@@ -11,7 +11,7 @@ public class QuickSort {
     static long noOfComparisons;
     public static void main(String args[]) throws IOException {
 
-        BufferedReader bfr = new BufferedReader(new FileReader("resources/QuickSort.txt"));
+        BufferedReader bfr = new BufferedReader(new FileReader("src/main/resources/QuickSort.txt"));
         int n =10000;
         int[] A = new int[n];
         String str = bfr.readLine();
