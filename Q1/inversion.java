@@ -117,8 +117,6 @@ public class inversion {
                 scanner.nextLine();
                 arr[k] = temp;
                 k++;
-                if(k==9998)
-                    System.out.println("Stop");
             }
         }
         catch (FileNotFoundException e)
